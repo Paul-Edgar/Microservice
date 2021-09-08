@@ -1,3 +1,6 @@
-# Microservice
-Pellerin Samuel - Cynthia Jallon - Valdes Paul-Edgar
-\nProgrammation distribuée &amp; Web avancé
+# MicroService
+
+### Programmation distribuée & Web avancé
+
+------------------------
+Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES
