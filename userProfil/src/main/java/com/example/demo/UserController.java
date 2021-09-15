@@ -21,7 +21,7 @@ public class UserController {
 
 
     @PostMapping("/users")
-    public User create_user(@RequestBody User user) {
+    public User create_user(@RequestBody @Valid User user) {
         long new_id = couter.incrementAndGet();
         user.setId(new_id);
         users.put(new_id, user);
