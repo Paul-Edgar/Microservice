@@ -29,6 +29,15 @@ public class UserController {
 
     @GetMapping("/users/{id}")
     public User specific_user(@PathVariable(value = "id") Long id) {
+        if(!users.containsKey(id))
+            throw new UserNotFoundException(id);
         return users.get(id);
     }
+
+    @DeleteMapping("/users/{id}")
+    public String delete_user(@PathVariable(value = "id") Long id) {
+        users.remove(id);
+        return "L'utilisateur " + id + " a été supprimé";
+    }
+
 }
