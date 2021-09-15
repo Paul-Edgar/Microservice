@@ -1,11 +1,16 @@
 package com.example.demo;
 
+import javax.validation.constraints.NotNull;
+
 public class User {
 
     private long id;
     private String first_name;
     private String last_name;
     private int age;
+
+    @NotNull(message = "")
+
 
     public User(long id, String first_name, String last_name, int age){
         this.id = id;
