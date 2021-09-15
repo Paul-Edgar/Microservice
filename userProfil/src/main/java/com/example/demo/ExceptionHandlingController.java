@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
-public class ExceptionHandingController {
+public class ExceptionHandlingController {
 
     @ResponseBody
     @ExceptionHandler(UserNotFoundException.class)
