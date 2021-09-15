@@ -1,11 +1,13 @@
 package com.example.demo;
 
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicLong;
+import javax.validation.Valid;
 
 @RestController
 public class UserController {
@@ -40,6 +42,19 @@ public class UserController {
         return "L'utilisateur " + id + " a été supprimé";
     }
 
-    //@PutMapping("/users")
+    @PutMapping("/users/{id}")
+    public User modifyUserById(@PathVariable(value = "id")Long id, @Valid @RequestBody User user ) {
+        if(!users.containsKey(id))
+            throw new UserNotFoundException(id);
+
+        User u = users.get(id);
+        u.setFirst_name(user.getFirst_name());
+        u.setLast_name(user.getLast_name());
+        u.setAge(user.getAge());
+        users.put(u.getId(), u);
+        return u;
+    }
+
+
 
 }
