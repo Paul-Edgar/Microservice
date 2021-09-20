@@ -14,12 +14,14 @@ public class UserController {
     private final AtomicLong couter = new AtomicLong();
 
     @GetMapping("/users")
+    @CrossOrigin
     public Collection<User> users(){
         return users.values();
     }
 
 
     @PostMapping("/users")
+    @CrossOrigin
     public User create_user(@RequestBody @Valid User user) {
         long new_id = couter.incrementAndGet();
         user.setId(new_id);
@@ -29,6 +31,7 @@ public class UserController {
     }
 
     @GetMapping("/users/{id}")
+    @CrossOrigin
     public User specific_user(@PathVariable(value = "id") Long id) {
         if(!users.containsKey(id))
             throw new UserNotFoundException(id);
@@ -36,12 +39,14 @@ public class UserController {
     }
 
     @DeleteMapping("/users/{id}")
+    @CrossOrigin
     public String delete_user(@PathVariable(value = "id") Long id) {
         users.remove(id);
         return "L'utilisateur " + id + " a été supprimé";
     }
 
     @PutMapping("/users/{id}")
+    @CrossOrigin
     public User modifyUserById(@PathVariable(value = "id")Long id, @Valid @RequestBody User user ) {
         if(!users.containsKey(id))
             throw new UserNotFoundException(id);
