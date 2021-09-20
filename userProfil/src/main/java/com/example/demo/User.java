@@ -5,17 +5,17 @@ import javax.validation.constraints.NotNull;
 public class User {
 
     private long id;
-    private String first_name;
-    private String last_name;
+    private String firstname;
+    private String lastname;
     private int age;
 
     @NotNull(message = "")
 
 
-    public User(long id, String first_name, String last_name, int age){
+    public User(long id, String firstname, String lastname, int age){
         this.id = id;
-        this.first_name = first_name;
-        this.last_name = last_name;
+        this.firstname = firstname;
+        this.lastname = lastname;
         this.age = age;
     }
 
@@ -23,12 +23,12 @@ public class User {
     public long getId(){ return id; }
 
     /* initialisation first_name */
-    public String getFirst_name(){ return first_name; }
-    public void setFirst_name(String first_name){ this.first_name = first_name; }
+    public String getFirstname(){ return firstname; }
+    public void setFirstname(String firstname){ this.firstname = firstname; }
 
     /* initialisation last_name */
-    public String getLast_name(){ return last_name; }
-    public void setLast_name(String last_name){ this.last_name = last_name; }
+    public String getLastname(){ return lastname; }
+    public void setLastname(String lastname){ this.lastname = lastname; }
 
     /* initialisation Age */
     public int getAge() { return age; }

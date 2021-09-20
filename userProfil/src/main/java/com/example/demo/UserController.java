@@ -1,6 +1,5 @@
 package com.example.demo;
 
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
@@ -48,8 +47,8 @@ public class UserController {
             throw new UserNotFoundException(id);
 
         User u = users.get(id);
-        u.setFirst_name(user.getFirst_name());
-        u.setLast_name(user.getLast_name());
+        u.setFirstname(user.getFirstname());
+        u.setLastname(user.getLastname());
         u.setAge(user.getAge());
         users.put(u.getId(), u);
         return u;
