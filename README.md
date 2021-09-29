@@ -3,8 +3,9 @@
 ### Programmation distribuée & Web avancé
 
 Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
-/
-/
+
+.
+.
 #### Pour commencer, qu'est-ce qu'une API ?
   
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
@@ -16,8 +17,8 @@ Les API doivent être documentés pour être utilisées correctement par les ser
 ![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
 
 Maintenant que nous avons expliqué clairement la notion d'API, nous allons pouvoir expliquer REST, ses principes de fonctionnement et son utilisation.
-/
-/
+.
+.
 #### Pour commencer, qu'est-ce que REST ?
   
 Representational State Transfer de son acronyme REST représente une architecture logicielle qui définit ensemble deux contraintes pour la création de services. Le client est la personne application frontale ou mobile qui utilise et consomme les ressources de l'API. Les ressources sont les données exposées par notre API. Sur une API Rest les requêtes s'effectuent sur l'URL d'une ressource, puis les ressources récupérées sous le format JSON, XML...
