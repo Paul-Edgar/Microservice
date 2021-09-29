@@ -74,11 +74,11 @@ Ensuite, nous avons crée notre répertoire GitHub sur lequel nous devrons commi
 
 En exécutant notre premier service, nous obtenons le message de bienvenue qui nous permet de confirmer le bon fonctionnement du projet.
 
-![Hello world](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
+![Hello world](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d2.png?raw=true)
 
 Nous pouvons ajouter `?name=polytech` pour tester que le paramètre est bien détecté.
 
-![Hello polytech](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
+![Hello polytech](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img4-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
 
 <br></br>
 <br></br>
