@@ -68,10 +68,15 @@ Le coût de déploiement et la complexité de mise en place sont de réels incon
 
 Dans un premier temps, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
 
-![Sptring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
+![Spring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
 
+Ensuite, nous avons crée notre répertoire GitHub sur lequel nous devrons commit notre code durant ce projet.
 
+En exécutant notre premier service, nous obtenons le message de bienvenue qui nous permet de confirmer le bon fonctionnement du projet.
 
+![Hello world](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
+
+Nous pouvons ajouter `?name=Amy` pour tester que le paramètre est bien détecté.
 
 <br></br>
 <br></br>
