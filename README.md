@@ -1,5 +1,5 @@
 ## FR version
-<br></br>
+
 ### Programmation distribuée & Web avancé
 
 Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
@@ -112,6 +112,14 @@ Nous avons déjà présenté au début de notre docuement les APIs REST, mais no
 
 En reprenant les bases du cours précédent, nous créons une classe d’utilisateur et une API pour travailler avec la classe. Ajoutez d’autres champs que vous trouvez utiles.
 
+Nous devons mettre en place une classe User avec les propriétés suivantes :
+- ID
+- Prénom
+- Nom
+- Âge
+
+Avec ces données, nous allons pouvoir mettre en place le contrôleur afin de créer un utilisateur avec des données, le modifier et le supprimer.
+
 ##### Messages d'erreur
 
 De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas détaillés. Nous allons ajouter un gestionnaire d'exception capable de détailler nos erreurs et les rendre utiles.
@@ -121,6 +129,45 @@ De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas dét
 Cette exception ci-dessus permet d'afficher que l'utilisateur avec l'identifiant saisi n'a pas été reconnu.
 
 
+Pour effectuer cette partie, nous avons utilisé les ressources suivantes :
+- https://spring.io/projects/spring-boot
+- https://github.com/lcuoco/TPRest 
+
+<br></br>
+
+#### Cours du 15 septembre 2021 - Suite de notre service
+
+Pour pousuivre le projet, nous allons tester notre API REST avec Postman.
+
+##### Le testing
+
+Un bon service doit être fiable et doit être testé. Avec autant de complexité, nous souhaitons un déploiement automatique ainsi que des tests autormatiques. 
+
+Les mots-clés à connaître sont :
+- Unit testing : test d’unités individuelles de code
+- Integration test : tester l’intégration de plusieurs systèmes ensemble
+- Regression test : veiller à ce que les anciennes erreurs ne réapparaissent pas
+
+##### La documentation
+
+Il est évident qu’une bonne documentation est importante pour les logiciels et services réutilisables.
+
+La documentation comporte de nombreux éléments : commentaires de code, références, manuels, guides.
+
+Nous nous concentrons sur la référence API : une documentation très précise des interfaces exposées aux clients.
+
+Nous utilisons Swagger/OpenAPI. Il permet d'avoir un format lisible par machine (YAML) pour définir et documenter les API RESTful.
+
+
+Pour effectuer cette partie, nous avons utilisé les ressources suivantes :
+- https://swagger.io/docs/specification/basic-structure/
+- https://spec.openapis.org/oas/v3.1.0#specification
+
+<br></br>
+
+#### Cours du 23 septembre 2021 - 2ème service
+
+Dans
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
@@ -132,9 +179,142 @@ Cette exception ci-dessus permet d'afficher que l'utilisateur avec l'identifiant
 
 ## EN version
 
-
 ### Distributed Programming & Advanced Web
 
+First, we will develop the basics we learned in the 4th year before explaining what we achieved during this advanced web course in 5th year with Hans-Jörg SCHURR.
+
+#### To begin with, what is an API ?
+  
+An API is a set of definitions and protocols that facilitate the creation and integration of application software. API is an English acronym which stands for "Application Programming Interface", which is translated by application programming interface.
+
+APIs make it possible to communicate with other products / services without knowing the details of their implementation. They simplify application development and save you time. When you design new tools and products, APIs give you more flexibility and simplify design, administration, and use.
+
+APIs must be documented to be properly used by the external services for which they are deployed and developed.
+
+![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
+
+Now that we have clearly explained the notion of API, we will be able to explain REST, its operating principles and its use.
+
+#### To begin with, what is REST ?
+  
+Representational State Transfer, by its acronym REST, represents a software architecture that together defines two constraints for the creation of services. The client is the front-end or mobile application person who uses and consumes API resources. Resources are the data exposed by our API. On a Rest API, requests are made to the URL of a resource, then the resources retrieved in JSON, XML, etc.
+
+![API Rest](https://github.com/Paul-Edgar/Microservice/blob/main/Img/api-rest-architecture.png?raw=true)
+
+**GET, POST, PUT, DELETE : the HTTP protocol**
+
+REST APIs are based on HTTP, which stands for Hypertext Transfer Protocol. The exchanges are based on the client's requests to the API via requests of different types.
+
+- GET : retrieve data from a resource
+- POST : send data to be processed to a specific resource
+- PUT : update a specified resource
+- DELETE : delete a specified resource
+
+<br></br>
+
+#### Course of September 08, 2021 - Creation of the first service
+
+First, we took part of the course which gave us the first essential notions to understand what a microservice is and its advantages and disadvantages.
+
+Next, we'll create our project and start development.
+
+##### What is a microservice?
+
+A microservice allows the implementation of web services that will be used by many users as we explained previously in our introduction.
+
+Microservices became popular around 2014 and are now built into all big projects.
+Each component is an individual service and can be deployed independently for multiple software.
+
+
+###### Organization and use
+
+Normally, the traditional organization is capacity-based (database, UX, etc ...) but for a microservice, the organization is by logical service.
+
+Microservices are therefore produced for teams and external users and documentation is essential. A tool for performing tests can also be implemented.
+
+The services are therefore responsible for data management, we must use a service for a database.
+
+###### The deployment
+
+Deployments are often automated and unit testing tools are used to verify proper operation. The modifications enter into the principle of continuous integration.
+
+###### The inconvenients
+
+The cost of deployment and the complexity of setting up are real drawbacks that can push back developers for their projects. The separation of services is not easy to understand.
+
+<br></br>
+
+##### Beginning of the project
+
+The objective of this project is to realize 2 independent services which will be able to communicate via requests. These 2 services will be:
+- UserProfil
+- Authentication
+
+![Schema project](https://github.com/Paul-Edgar/Microservice/blob/main/Img/ProjetSchema.PNG?raw=true)
+
+To get started, using Spring Boot, we generate a project with the necessary dependencies very quickly.
+
+![Spring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
+
+
+Then, we created our GitHub directory on which we will have to commit our code during this project.
+
+By performing our first service, we get the welcome message that allows us to confirm the proper functioning of the project.
+
+![Hello world](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d2.png?raw=true)
+
+We can add `?Name=polytech` to test that the parameter is correctly detected.
+
+![Hello polytech](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img4-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
+
+<br></br>
+
+#### Course of September 13, 2021 - Creation of the first service
+
+In this 2nd lesson, we will develop the concepts around the REST API and apply them in our project.
+
+We have already presented the REST APIs at the beginning of our document, but we must detail their constraints.
+
+##### Stateless what is it?
+
+* No session to maintain and therefore no load balancing problem.
+* It is possible to parallelize the queries.
+* Intuitive and extensible API.
+
+##### REST constraints
+
+* Messages are self-described
+* Posts describe how the resource can be manipulated
+* The type of resource is identified in the request
+
+<br></br>
+
+##### Continuation of the project
+
+Taking the basics from the previous lesson, we create a user class and an API to work with the class. Add other fields that you find useful.
+
+We need to set up a User class with the following properties:
+- ID
+- First name
+- Name
+- Age
+
+With this data, we will be able to set up the controller in order to create a user with data, modify it and delete it.
+
+##### Error messages
+
+Basic error messages are not very useful because they are not detailed. We will add an exception handler able to detail our errors and make them useful.
+
+![UserNotFoundException](https://github.com/Paul-Edgar/Microservice/blob/main/Img/UserNotFoundException.PNG?raw=true)
+
+This exception above is used to display that the user with the username entered was not recognized.
+
+
+To complete this part, we used the following resources:
+- https://spring.io/projects/spring-boot
+- https://github.com/lcuoco/TPRest
+
+<br></br>
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
