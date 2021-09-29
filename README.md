@@ -14,8 +14,6 @@ Les API doivent être documentés pour être utilisées correctement par les ser
 
 ![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
 
-<br></br>
-
 Maintenant que nous avons expliqué clairement la notion d'API, nous allons pouvoir expliquer REST, ses principes de fonctionnement et son utilisation.
 
 #### Pour commencer, qu'est-ce que REST ?
@@ -39,7 +37,8 @@ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Le
 
 Dans un premier temps, nous avons suivi une partie de cours qui nous a donné les premières notions indispensables pour comprendre qu'est-ce qu'un microservice et ses avantages et inconvénients.
 
-<br></br>
+Ensuite, nous allons créer notre projet et commencer le développement.
+
 ##### Qu'est-ce qu'un microservice ?
 
 Un microservice permet la mise en place de services web qui seront utilisés par de nombreux utilisateurs comme nous l'avons expliqué précédemment dans notre introduction.
@@ -47,7 +46,7 @@ Un microservice permet la mise en place de services web qui seront utilisés par
 Les microservices sont devenus populaires aux alentours de 2014 et sont désormais intégrés dans tous les gros projets. 
 Chaque composant est un service individuel et peut être déployé de manière indépendante pour plusieurs logiciels.
 
-<br></br>
+
 **L'organisation et l'utilisation**
 
 Normalement, l'organisation traditionnelle est basée sur les capacités (base de données, UX, etc...) mais pour un microservice, l'organisation est par service logique.
@@ -56,8 +55,26 @@ Les microservices sont donc produits pour des équipes et des utilisateurs exter
 
 Le services sont donc responsables de la gestion des données, on doit utiliser un service pour une base de données. 
 
+**Le déploiement**
+
+Les déploiements sont souvent automatisés et on utilise des outils de tests unitaires pour vérifier le bon fonctionnement. Les modifications entrent dans le principe de l'intégration continue.
+
+**Les inconvénients**
+
+Le coût de déploiement et la complexité de mise en place sont de réels inconvénients qui peuvent repousser les développeurs pour leurs projets. La séparation des services n'est pas facile à appréhender. 
+
+<br></br>
+##### Notre projet
+
+Dans un premier temps, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
+
+![Sptring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
 
 
+
+
+<br></br>
+<br></br>
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
