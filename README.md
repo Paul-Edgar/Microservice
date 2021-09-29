@@ -30,6 +30,7 @@ An API is a set of definitions and protocols that facilitate the creation and in
 
 APIs make it possible to communicate with other products / services without knowing the details of their implementation. They simplify application development and save you time. When you design new tools and products, APIs give you more flexibility and simplify design, administration, and use.
 
-APIs must be documented to be properly used by the external services for which they are deployed and developed.
+APIs must be documented to be properly used by the externam servives for wich they are deployed and developed.
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
