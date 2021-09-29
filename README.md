@@ -82,7 +82,17 @@ Nous pouvons ajouter `?name=polytech` pour tester que le paramètre est bien dé
 ![Hello polytech](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img4-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
 
 <br></br>
+
+Pour conclure cette 1ère partie, nous allons réaliser 2 services indépendant
+- UserProfil
+- Authentification
+
+![Projet schema](https://github.com/Paul-Edgar/Microservice/blob/main/Img/ProjetSchema.PNG?raw=true)
+
+
 <br></br>
+
+#### Cours du 13 septembre 2021 - Création du premier service
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
