@@ -64,11 +64,12 @@ Les déploiements sont souvent automatisés et on utilise des outils de tests un
 Le coût de déploiement et la complexité de mise en place sont de réels inconvénients qui peuvent repousser les développeurs pour leurs projets. La séparation des services n'est pas facile à appréhender. 
 
 <br></br>
-#### Notre projet
+**Notre projet**
 
 Dans un premier temps, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
 
 ![Spring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
+
 
 Ensuite, nous avons crée notre répertoire GitHub sur lequel nous devrons commit notre code durant ce projet.
 
