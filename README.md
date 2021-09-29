@@ -112,6 +112,14 @@ Nous avons déjà présenté au début de notre docuement les APIs REST, mais no
 
 En reprenant les bases du cours précédent, nous créons une classe d’utilisateur et une API pour travailler avec la classe. Ajoutez d’autres champs que vous trouvez utiles.
 
+Nous devons mettre en place une classe User avec les propriétés suivantes :
+- ID
+- Prénom
+- Nom
+- Âge
+
+Avec ces données, nous allons pouvoir mettre en place le contrôleur afin de créer un utilisateur avec des données, le modifier et le supprimer.
+
 ##### Messages d'erreur
 
 De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas détaillés. Nous allons ajouter un gestionnaire d'exception capable de détailler nos erreurs et les rendre utiles.
@@ -121,6 +129,41 @@ De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas dét
 Cette exception ci-dessus permet d'afficher que l'utilisateur avec l'identifiant saisi n'a pas été reconnu.
 
 
+Pour effectuer cette partie, nous avons utilisé les ressources suivantes :
+- https://spring.io/projects/spring-boot
+- https://github.com/lcuoco/TPRest 
+
+<br></br>
+
+#### Cours du 15 septembre 2021 - Création du premier service
+
+Pour pousuivre le projet, nous allons tester notre API REST avec Postman.
+
+##### Le testing
+
+Un bon service doit être fiable et doit être testé. Avec autant de complexité, nous souhaitons un déploiement automatique ainsi que des tests autormatiques. 
+
+Les mots-clés à connaître sont :
+- Unit testing : test d’unités individuelles de code
+- Integration test : tester l’intégration de plusieurs systèmes ensemble
+- Regression test : veiller à ce que les anciennes erreurs ne réapparaissent pas
+
+##### La documentation
+
+Il est évident qu’une bonne documentation est importante pour les logiciels et services réutilisables.
+
+La documentation comporte de nombreux éléments : commentaires de code, références, manuels, guides.
+
+Nous nous concentrons sur la référence API : une documentation très précise des interfaces exposées aux clients.
+
+Nous utilisons Swagger/OpenAPI. Il permet d'avoir un format lisible par machine (YAML) pour définir et documenter les API RESTful.
+
+
+Pour effectuer cette partie, nous avons utilisé les ressources suivantes :
+- https://swagger.io/docs/specification/basic-structure/
+- https://spec.openapis.org/oas/v3.1.0#specification
+
+<br></br>
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
