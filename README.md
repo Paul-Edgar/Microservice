@@ -116,6 +116,12 @@ En reprenant les bases du cours précédent, nous créons une classe d’utilisa
 
 De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas détaillés. Nous allons ajouter un gestionnaire d'exception capable de détailler nos erreurs et les rendre utiles.
 
+![UserNotFoundException](https://github.com/Paul-Edgar/Microservice/blob/main/Img/UserNotFoundException.PNG?raw=true)
+
+Cette exception ci-dessus permet d'afficher que l'utilisateur avec l'identifiant saisi n'a pas été reconnu.
+
+
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
