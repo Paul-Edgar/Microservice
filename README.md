@@ -64,7 +64,7 @@ Les déploiements sont souvent automatisés et on utilise des outils de tests un
 Le coût de déploiement et la complexité de mise en place sont de réels inconvénients qui peuvent repousser les développeurs pour leurs projets. La séparation des services n'est pas facile à appréhender. 
 
 <br></br>
-##### Notre projet
+#### Notre projet
 
 Dans un premier temps, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
 
@@ -76,7 +76,9 @@ En exécutant notre premier service, nous obtenons le message de bienvenue qui n
 
 ![Hello world](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
 
-Nous pouvons ajouter `?name=Amy` pour tester que le paramètre est bien détecté.
+Nous pouvons ajouter `?name=polytech` pour tester que le paramètre est bien détecté.
+
+![Hello polytech](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img3-afa0a1fe446db8e3c8c7a8d9ca532d23.png?raw=true)
 
 <br></br>
 <br></br>
