@@ -62,7 +62,7 @@ Representational State Transfer, by its acronym REST, represents a software arch
 
 ![API Rest](https://github.com/Paul-Edgar/Microservice/blob/main/Img/api-rest-architecture.png?raw=true)
 
-** GET, POST, PUT, DELETE: the HTTP protocol **
+**GET, POST, PUT, DELETE: the HTTP protocol**
 
 REST APIs are based on HTTP, which stands for Hypertext Transfer Protocol. The exchanges are based on the client's requests to the API via requests of different types.
 
