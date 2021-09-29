@@ -8,7 +8,7 @@ Dans ce cours, nous allons développer et apprendre à utiliser une API Rest.
 
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
 
-Les API permettent de communiquer avec d'autres produits / services sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications et vous font gagner du temps. Lorsque vous concevez de nouveaux outils et produits, les API vous offrent plus de flexibilité et simplifient la conception, l'administration et l'utilisation.
+Les API permettent de communiquer avec d'autres produits / services sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications et vous font gagner du temps. Lorsque vous concevez de nouveaux outils et produits, les API vous offrent plus de flexibilité et simplifient la conception, l'administration et l'utilisation.**
 
 Les API doivent être documentés pour être utilisées correctement par les services externes pour lesquels elles sont déployées et développées.
 
