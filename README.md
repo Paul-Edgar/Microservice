@@ -4,7 +4,6 @@
 
 Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
 
-<br></br>
 #### Pour commencer, qu'est-ce qu'une API ?
   
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
@@ -15,9 +14,10 @@ Les API doivent être documentés pour être utilisées correctement par les ser
 
 ![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
 
+<br></br>
+
 Maintenant que nous avons expliqué clairement la notion d'API, nous allons pouvoir expliquer REST, ses principes de fonctionnement et son utilisation.
 
-<br></br>
 #### Pour commencer, qu'est-ce que REST ?
   
 Representational State Transfer de son acronyme REST représente une architecture logicielle qui définit ensemble deux contraintes pour la création de services. Le client est la personne application frontale ou mobile qui utilise et consomme les ressources de l'API. Les ressources sont les données exposées par notre API. Sur une API Rest les requêtes s'effectuent sur l'URL d'une ressource, puis les ressources récupérées sous le format JSON, XML...
@@ -34,17 +34,12 @@ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Le
 - DELETE : supprimer une ressource spécifiée
 
 <br></br>
-<br></br>
 
 #### Cours du 08 septembre 2021 - Création du premier service
 
-<br></br>
-
 Dans un premier temps, nous avons suivi une partie de cours qui nous a donné les premières notions indispensables pour comprendre qu'est-ce qu'un microservice et ses avantages et inconvénients.
 
-
 <br></br>
-
 ##### Qu'est-ce qu'un microservice ?
 
 Un microservice permet la mise en place de services web qui seront utilisés par de nombreux utilisateurs comme nous l'avons expliqué précédemment dans notre introduction.
@@ -52,16 +47,20 @@ Un microservice permet la mise en place de services web qui seront utilisés par
 Les microservices sont devenus populaires aux alentours de 2014 et sont désormais intégrés dans tous les gros projets. 
 Chaque composant est un service individuel et peut être déployé de manière indépendante pour plusieurs logiciels.
 
+<br></br>
+**L'organisation et l'utilisation**
+
 Normalement, l'organisation traditionnelle est basée sur les capacités (base de données, UX, etc...) mais pour un microservice, l'organisation est par service logique.
 
 Les microservices sont donc produits pour des équipes et des utilisateurs externes et la documentation est indispensable. Un outil permettant d'effectuer des tests peut aussi être mis en place.
+
+Le services sont donc responsables de la gestion des données, on doit utiliser un service pour une base de données. 
 
 
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
-<br></br>
 <br></br>
 <br></br>
 <br></br>
