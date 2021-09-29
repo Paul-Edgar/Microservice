@@ -1,7 +1,5 @@
 ## FR version
 
-<br></br>
-
 ### Programmation distribuée & Web avancé
 
 Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
@@ -180,7 +178,6 @@ Dans
 <br></br>
 
 ## EN version
-
 
 ### Distributed Programming & Advanced Web
 
