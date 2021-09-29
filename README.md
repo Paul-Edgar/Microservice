@@ -2,9 +2,9 @@
 
 ### Programmation distribuée & Web avancé
 
-Dans ce cours, nous allons développer et apprendre à utiliser une API Rest et des microservices.
+Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
   
-  
+    
 #### Pour commencer, qu'est-ce qu'une API ?
 
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
