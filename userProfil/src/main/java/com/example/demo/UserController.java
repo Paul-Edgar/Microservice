@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import javax.validation.Valid;
 
 @RestController
-public class UserController {
+public class  UserController {
     private Map<Long, User> users = new HashMap<>();
     private final AtomicLong couter = new AtomicLong();
 
