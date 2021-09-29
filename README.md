@@ -1,10 +1,12 @@
 ## FR version
-
+#
+##
+###
 ### Programmation distribuée & Web avancé
 
 Dans un premier temps, nous allons développer les bases que nous avons appris durant la 4ème année avant d'expliquer ce que nous avons réalisé pendant ce cours de web avancé en 5ème année avec Hans-Jörg SCHURR.
-  
-    
+#
+##
 #### Pour commencer, qu'est-ce qu'une API ?
 
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
@@ -32,15 +34,16 @@ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Le
 - POST : envoyer des données à traiter à une ressource spécifique
 - PUT : mettre à jour une ressource spécifiée
 - DELETE : supprimer une ressource spécifiée
-  
-  
+#
+##
+###
 #### Cours du 08 septembre 2021 - Création du premier service
 
 Dans un premier temps, nous avons suivi une partie de cours qui nous a donné les premières notions indispensables pour comprendre qu'est-ce qu'un microservice et ses avantages et inconvénients.
-  
-  
+#
+##
 ##### Qu'est-ce qu'un microservice ?
-
+#
 Un microservice permet la mise en place de services web qui seront utilisés par de nombreux utilisateurs comme nous l'avons expliqué précédemment dans notre introduction.
 
 Les microservices sont devenus populaires aux alentours de 2014 et sont désormais intégrés dans tous les gros projets. 
@@ -52,12 +55,15 @@ Les microservices sont donc produits pour des équipes et des utilisateurs exter
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
-
-
-
-
+#
+##
+###
+####
+#####
 ## EN version
-
+#
+##
+###
 ### Distributed Programming & Advanced Web
 
 ------------------------
