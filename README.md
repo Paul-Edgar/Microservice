@@ -56,9 +56,9 @@ Les microservices sont donc produits pour des équipes et des utilisateurs exter
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
-&nbsp; 
-&nbsp; 
-&nbsp; 
+<br></br>
+ <br></br>
+ <br></br>
 ## EN version
 
 
