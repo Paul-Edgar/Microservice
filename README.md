@@ -20,7 +20,7 @@ Les API doivent être documentés pour être utilisées correctement par les ser
 
 ## EN version
 
-### Programmation distribuée & Web avancé
+### Distributed Programming & Advanced Web
 
 In this course, we will develop and learn how to use a Rest API.
 
