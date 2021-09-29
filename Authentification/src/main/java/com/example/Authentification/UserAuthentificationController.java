@@ -13,12 +13,6 @@ public class UserAuthentificationController {
     private Map<Long, UserAuthentification> users = new HashMap<>();
     private final AtomicLong couter = new AtomicLong();
 
-    @GetMapping("/users")
-    @CrossOrigin
-    public Collection<UserAuthentification> users(){
-        return users.values();
-    }
-
     @PostMapping("/users")
     @CrossOrigin
     public UserAuthentification create_user(@RequestBody @Valid UserAuthentification user) {
@@ -29,11 +23,31 @@ public class UserAuthentificationController {
         return user;
     }
 
+    @GetMapping("/users")
+    @CrossOrigin
+    public Collection<UserAuthentification> users(){
+        return users.values();
+    }
+
     @GetMapping("/users/{userId}")
     @CrossOrigin
     public UserAuthentification specific_user(@PathVariable(value = "userId") Long userId) {
         if(!users.containsKey(userId))
             throw new UserNotFoundExceptionAuthentification(userId);
         return users.get(userId);
+    }
+
+    @DeleteMapping("/users/{userId}")
+    @CrossOrigin
+    public String delete_user(@PathVariable(value = "userId") Long userId) {
+        users.remove(userId);
+        return "L'utilisateur " + userId + " a été supprimé";
+    }
+
+    @PostMapping("/users/{userId}/password")
+    public String update_password(@PathVariable(value = "userId") Long userId, @RequestBody String newPassword) {
+        UserAuthentification user = users.get(userId);
+        user.setPassword(newPassword);
+        return "Le password du " + userId + " a été modifié";
     }
 }
