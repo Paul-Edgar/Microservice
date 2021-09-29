@@ -47,7 +47,7 @@ Les microservices sont devenus populaires aux alentours de 2014 et sont désorma
 Chaque composant est un service individuel et peut être déployé de manière indépendante pour plusieurs logiciels.
 
 
-**L'organisation et l'utilisation**
+###### L'organisation et l'utilisation
 
 Normalement, l'organisation traditionnelle est basée sur les capacités (base de données, UX, etc...) mais pour un microservice, l'organisation est par service logique.
 
@@ -55,18 +55,24 @@ Les microservices sont donc produits pour des équipes et des utilisateurs exter
 
 Le services sont donc responsables de la gestion des données, on doit utiliser un service pour une base de données. 
 
-**Le déploiement**
+###### Le déploiement
 
 Les déploiements sont souvent automatisés et on utilise des outils de tests unitaires pour vérifier le bon fonctionnement. Les modifications entrent dans le principe de l'intégration continue.
 
-**Les inconvénients**
+###### Les inconvénients
 
 Le coût de déploiement et la complexité de mise en place sont de réels inconvénients qui peuvent repousser les développeurs pour leurs projets. La séparation des services n'est pas facile à appréhender. 
 
 <br></br>
-**Notre projet**
+##### Début du projet
 
-Dans un premier temps, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
+L'objectif de ce projet est de réaliser 2 services indépendant qui pourront communiquer via des requêtes. Ces 2 services seront :
+- UserProfil
+- Authentification
+
+![Projet schema](https://github.com/Paul-Edgar/Microservice/blob/main/Img/ProjetSchema.PNG?raw=true)
+
+Pour débuter, en utilisant Spring Boot, nous générons un projet avec les dépendances nécessaires très rapidement.
 
 ![Spring boot](https://github.com/Paul-Edgar/Microservice/blob/main/Img/quick-img-1-12bfde9c5c280b1940d85dee3d81772d.png?raw=true)
 
@@ -83,16 +89,33 @@ Nous pouvons ajouter `?name=polytech` pour tester que le paramètre est bien dé
 
 <br></br>
 
-Pour conclure cette 1ère partie, nous allons réaliser 2 services indépendant
-- UserProfil
-- Authentification
+#### Cours du 13 septembre 2021 - Création du premier service
 
-![Projet schema](https://github.com/Paul-Edgar/Microservice/blob/main/Img/ProjetSchema.PNG?raw=true)
+Dans cette 2ème séance de cours, nous allons développer les notions autour de l'API REST et les appliquer dans notre projet.
 
+Nous avons déjà présenté au début de notre docuement les APIs REST, mais nous devons détailler leurs contraintes.
+
+##### Stateless c'est quoi ?
+
+* Pas de session à maintenir et donc pas de problème de load balancing.
+* Il est possible de paralléliser les requêtes.
+* API intuitive et extensible.
+
+##### Les contraintes de REST
+
+* Les messages sont auto-décrits
+* Les messages décrivent comment la ressource peut être manipulée
+* Le type de ressource est identifié dans la demande
 
 <br></br>
+##### Suite du projet
 
-#### Cours du 13 septembre 2021 - Création du premier service
+En reprenant les bases du cours précédent, nous créons une classe d’utilisateur et une API pour travailler avec la classe. Ajoutez d’autres champs que vous trouvez utiles.
+
+##### Messages d'erreur
+
+De base, les messages d'erreur ne sont pas très utiles car ils ne sont pas détaillés. Nous allons ajouter un gestionnaire d'exception capable de détailler nos erreurs et les rendre utiles.
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
