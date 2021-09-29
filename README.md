@@ -8,7 +8,7 @@ Dans ce cours, nous allons développer et apprendre à utiliser une API Rest.
 
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
 
-Les API permettent de communiquer avec d'autres produits / services sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications et vous font gagner du temps. Lorsque vous concevez de nouveaux outils et produits, les API vous offrent plus de flexibilité et simplifient la conception, l'administration et l'utilisation.**
+Les API permettent de communiquer avec d'autres produits / services sans connaître les détails de leur mise en œuvre. Elles simplifient le développement d'applications et vous font gagner du temps. Lorsque vous concevez de nouveaux outils et produits, les API vous offrent plus de flexibilité et simplifient la conception, l'administration et l'utilisation.
 
 Les API doivent être documentés pour être utilisées correctement par les services externes pour lesquels elles sont déployées et développées.
 
@@ -30,6 +30,18 @@ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Le
 - POST : envoyer des données à traiter à une ressource spécifique
 - PUT : mettre à jour une ressource spécifiée
 - DELETE : supprimer une ressource spécifiée
+
+
+#### Cours du 08 septembre 2021 - Création du premier service
+
+Dans un premier temps, nous avons suivi une partie de cours qui nous a donné les premières notions indispensables pour comprendre qu'est-ce qu'un microservice et ses avantages et inconvénients.
+
+##### Qu'est-ce qu'un microservice ?
+
+Un microservice permet la mise en place de services web qui seront utilisés par de nombreux utilisateurs comme nous l'avons expliqué précédemment dans notre introduction.
+
+Les microservices sont devenus populaires aux alentours de 2014 et sont désormais intégrés dans tous les gros projets. 
+Chaque composant est un service individuel et peut être déployé de manière indépendante pour plusieurs logiciels.
 
 
 ------------------------
@@ -70,6 +82,18 @@ REST APIs are based on HTTP, which stands for Hypertext Transfer Protocol. The e
 - POST: send data to be processed to a specific resource
 - PUT: update a specified resource
 - DELETE: delete a specified resource
+
+
+#### Course of September 08, 2021 - Creation of the first service
+
+First, we took part of the course which gave us the first essential notions to understand what a microservice is and its advantages and disadvantages.
+
+##### What is a microservice?
+
+A microservice allows the implementation of web services that will be used by many users as we explained previously in our introduction.
+
+Microservices became popular around 2014 and are now built into all big projects.
+Each component is an individual service and can be deployed independently for multiple software.
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
