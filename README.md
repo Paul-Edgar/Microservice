@@ -3,7 +3,8 @@
 ### Programmation distribuée & Web avancé
 
 Dans ce cours, nous allons développer et apprendre à utiliser une API Rest et des microservices.
-
+  
+  
 #### Pour commencer, qu'est-ce qu'une API ?
 
 Une API est un ensemble de définitions et de protocoles qui facilite la création et l'intégration de logiciels d'applications. API est un acronyme anglais qui signifie « Application Programming Interface », que l'on traduit par interface de programmation d'application.
@@ -15,7 +16,8 @@ Les API doivent être documentés pour être utilisées correctement par les ser
 ![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
 
 Maintenant que nous avons expliqué clairement la notion d'API, nous allons pouvoir expliquer REST, ses principes de fonctionnement et son utilisation.
-
+  
+  
 #### Pour commencer, qu'est-ce que REST ?
 
 Representational State Transfer de son acronyme REST représente une architecture logicielle qui définit ensemble deux contraintes pour la création de services. Le client est la personne application frontale ou mobile qui utilise et consomme les ressources de l'API. Les ressources sont les données exposées par notre API. Sur une API Rest les requêtes s'effectuent sur l'URL d'une ressource, puis les ressources récupérées sous le format JSON, XML...
@@ -30,12 +32,13 @@ Les API REST sont basées sur HTTP, qui signifie Hypertext Transfer Protocol. Le
 - POST : envoyer des données à traiter à une ressource spécifique
 - PUT : mettre à jour une ressource spécifiée
 - DELETE : supprimer une ressource spécifiée
-
-
+  
+  
 #### Cours du 08 septembre 2021 - Création du premier service
 
 Dans un premier temps, nous avons suivi une partie de cours qui nous a donné les premières notions indispensables pour comprendre qu'est-ce qu'un microservice et ses avantages et inconvénients.
-
+  
+  
 ##### Qu'est-ce qu'un microservice ?
 
 Un microservice permet la mise en place de services web qui seront utilisés par de nombreux utilisateurs comme nous l'avons expliqué précédemment dans notre introduction.
