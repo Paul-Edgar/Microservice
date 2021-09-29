@@ -12,6 +12,8 @@ Les API permettent de communiquer avec d'autres produits / services sans connaî
 
 Les API doivent être documentés pour être utilisées correctement par les services externes pour lesquels elles sont déployées et développées.
 
+![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
@@ -31,6 +33,8 @@ An API is a set of definitions and protocols that facilitate the creation and in
 APIs make it possible to communicate with other products / services without knowing the details of their implementation. They simplify application development and save you time. When you design new tools and products, APIs give you more flexibility and simplify design, administration, and use.
 
 APIs must be documented to be properly used by the externam servives for wich they are deployed and developed.
+
+![API](https://github.com/Paul-Edgar/Microservice/blob/main/Img/API.png?raw=true)
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
