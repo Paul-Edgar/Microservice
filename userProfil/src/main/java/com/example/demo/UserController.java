@@ -12,7 +12,7 @@ import javax.validation.Valid;
 
 
 @RestController
-public class UserController {
+public class  UserController {
     private Map<Long, User> users = new HashMap<>();
     private final AtomicLong counter = new AtomicLong();
 
