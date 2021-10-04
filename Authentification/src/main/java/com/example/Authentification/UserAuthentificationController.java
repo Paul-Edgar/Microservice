@@ -15,12 +15,11 @@ public class UserAuthentificationController {
 
     @PostMapping("/users")
     @CrossOrigin
-    public UserAuthentification create_user(@RequestBody @Valid UserAuthentification user) {
-        long new_id = couter.incrementAndGet();
-        user.setUserId(new_id);
+    public long create_user(@RequestBody @Valid UserAuthentification user) {
+        long new_id = user.getUserId();
         users.put(new_id, user);
 
-        return user;
+        return new_id;
     }
 
     @GetMapping("/users")

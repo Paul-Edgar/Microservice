@@ -29,21 +29,21 @@ public class  UserController {
         users.put(new_id, user);
         NewUser authUser = new NewUser(new_id, "test");
         RestTemplate restTemplate = new RestTemplate();
-        Long check_id = restTemplate.postForObject("localhost:8081" + "/users", authUser, Long.class);
+        Long check_id = restTemplate.postForObject("http://localhost:8081" + "/users", authUser, Long.class);
         if (check_id != new_id)
             throw new RuntimeException();
         return user;
     }
 
-    @PostMapping("/users")
-    @CrossOrigin
-    public User create_user(@RequestBody @Valid User user) {
-        long new_id = counter.incrementAndGet();
-        user.setId(new_id);
-        users.put(new_id, user);
+    //@PostMapping("/users")
+    //@CrossOrigin
+    //public User create_user(@RequestBody @Valid User user) {
+        //long new_id = counter.incrementAndGet();
+        //user.setId(new_id);
+        //users.put(new_id, user);
 
-        return user;
-    }
+        //return user;
+    //}
 
     @GetMapping("/users/{id}")
     @CrossOrigin
