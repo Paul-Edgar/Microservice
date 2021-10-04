@@ -196,6 +196,18 @@ L'âge de l'utilisateur a bien été modifié comme on le voit ci-dessous :
 
 Maintenant que ces tests sont effectués, on peut confirmer que le service fonctionne et générer un nouveau service Authentification.
 
+<br></br>
+
+#### Cours du 29 septembre 2021 - Authentification
+
+Durant ce cours, nous allons continuer à développer le 2ème service d'authentification.
+
+Dans un premier temps, ce service doit effectuer un appel POST `/users` au service User.
+
+On doit effectuer une vérification avec un token pour effectuer un DELETE par exemple `/users/1`
+
+Pour cela, on doit permettre la connexion avec un nom d'utilisateur et un mot de passe.
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
