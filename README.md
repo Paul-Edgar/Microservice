@@ -1,3 +1,17 @@
+**Bienvenue dans le compte-rendu de projet / cours de programmation distribuée & web avancé réalisé par PELLERIN Samuel, VALDES Paul-Edgar, JALLON Cynthia.**
+
+**Vous trouverez 2 versions, FR et EN.**
+
+**Nous vous souhaitons une bonne lecture !**
+
+--
+
+**Welcome to the advanced distributed & web programming project / course report produced by PELLERIN Samuel, VALDES Paul-Edgar, JALLON Cynthia.**
+
+**You will find 2 versions, FR and EN.**
+
+**We hope you enjoy reading it !**
+
 ## FR version
 
 ### Programmation distribuée & Web avancé
