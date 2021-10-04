@@ -4,10 +4,11 @@ import javax.validation.constraints.NotNull;
 
 public class UserAuthentification {
 
+
+    @NotNull(message = "id required")
     private long userId;
     private String password;
 
-    @NotNull(message = "")
 
     public UserAuthentification(long userId, String password){
         this.userId = userId;

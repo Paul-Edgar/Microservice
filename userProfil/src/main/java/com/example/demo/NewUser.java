@@ -6,13 +6,13 @@ import java.sql.Struct;
 public class NewUser {
 
     @NotNull(message ="Id required")
-    private long id;
+    private long userId;
 
     @NotNull(message ="Pswd required")
     private String password;
 
     public NewUser(long id, String password){
-        this.id = id;
+        this.userId = id;
         this.password = password;
     }
 
@@ -24,11 +24,11 @@ public class NewUser {
         this.password = password;
     }
 
-    public long getId() {
-        return id;
+    public long getUserId() {
+        return userId;
     }
 
-    public void setId(long id) {
-        this.id = id;
+    public void setUserId(long id) {
+        this.userId = id;
     }
 }

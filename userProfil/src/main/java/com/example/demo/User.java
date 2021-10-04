@@ -4,7 +4,7 @@ import javax.validation.constraints.NotNull;
 
 public class User {
 
-    private long id;
+    private long userId;
     private String firstname;
     private String lastname;
     private int age;
@@ -13,14 +13,14 @@ public class User {
 
 
     public User(long id, String firstname, String lastname, int age){
-        this.id = id;
+        this.userId = id;
         this.firstname = firstname;
         this.lastname = lastname;
         this.age = age;
     }
 
     /* initialisation ID */
-    public long getId(){ return id; }
+    public long getId(){ return userId; }
 
     /* initialisation first_name */
     public String getFirstname(){ return firstname; }
@@ -36,6 +36,6 @@ public class User {
     public void setAge(int age) { this.age = age; }
 
     public void setId(long id){
-        this.id = id;
+        this.userId = id;
     }
 }
