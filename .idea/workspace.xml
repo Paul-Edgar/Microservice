@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f585d45b-9dbf-4de7-8106-fd7c90216527" name="Changes" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-=======
       <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentification.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserNotFoundExceptionAuthentification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" afterDir="false" />
->>>>>>> 7c3bc250343b46c8ce2b45aed495a13fb7384d4d
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +40,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-=======
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
->>>>>>> 7c3bc250343b46c8ce2b45aed495a13fb7384d4d
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AuthentificationApplication">
     <configuration name="AuthentificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -78,12 +83,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632899749140</updated>
-<<<<<<< HEAD
       <workItem from="1632899753483" duration="563000" />
       <workItem from="1632905030911" duration="850000" />
-=======
       <workItem from="1632899753483" duration="3989000" />
->>>>>>> 7c3bc250343b46c8ce2b45aed495a13fb7384d4d
     </task>
     <servers />
   </component>
