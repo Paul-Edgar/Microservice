@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f585d45b-9dbf-4de7-8106-fd7c90216527" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserNotFoundExceptionAuthentification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="f585d45b-9dbf-4de7-8106-fd7c90216527" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +33,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Angular" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632899749140</updated>
       <workItem from="1632899753483" duration="3989000" />
+      <workItem from="1633067943649" duration="22000" />
     </task>
     <servers />
   </component>

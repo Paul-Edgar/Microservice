@@ -165,9 +165,36 @@ Pour effectuer cette partie, nous avons utilisé les ressources suivantes :
 
 <br></br>
 
-#### Cours du 23 septembre 2021 - 2ème service
+#### Cours du 20 septembre 2021 - 2ème service
 
-Dans
+Dans cette séance de cours, nous avons testé avec le logiciel POSTMAN qui permet d'envoyer des requêtes à notre API.
+
+Dans un premier temps, nous effectuons la création de plusieurs utilisateurs via des requêtes POST :
+
+![POST 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/POST-1-userProfil.PNG?raw=true)
+
+Ci-dessous, on retrouve notre liste d'utilisateurs via la requête GET et peut constater que l'utilisateur a été ajouté :
+
+![GET 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/POST-2-userProfil.PNG?raw=true)
+
+On peut supprimer un utilisateur avec la requête DELETE :
+
+![DELETE 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/DELETE-1-userProfil.PNG?raw=true)
+
+En effectuant un GET, on voit bien que l'utilisateur a été supprimé :
+
+![DELETE 2](https://github.com/Paul-Edgar/Microservice/blob/main/Img/DELETE-2-userProfil.PNG?raw=true)
+
+Pour conclure, on peut modifier les données d'un utilisateur via le PUT :
+
+![PUT 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/PUT-1-userProfil.PNG?raw=true)
+
+L'âge de l'utilisateur a bien été modifié comme on le voit ci-dessous :
+
+![PUT 2](https://github.com/Paul-Edgar/Microservice/blob/main/Img/PUT-2-userProfil.PNG?raw=true)
+
+
+Maintenant que ces tests sont effectués, on peut confirmer que le service fonctionne et générer un nouveau service Authentification.
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
@@ -315,6 +342,37 @@ To complete this part, we used the following resources:
 - https://github.com/lcuoco/TPRest
 
 <br></br>
+
+#### Course of September 20, 2021 - 2nd service
+
+In this lesson, we tested with the POSTMAN software which allows you to send requests to our API.
+
+First, we create several users via POST requests:
+
+![POST 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/POST-1-userProfil.PNG?raw=true)
+
+Below is our list of users via the GET request and can see that the user has been added:
+
+![GET 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/POST-2-userProfil.PNG?raw=true)
+
+You can delete a user with the DELETE request:
+
+![DELETE 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/DELETE-1-userProfil.PNG?raw=true)
+
+By performing a GET, we can see that the user has been deleted:
+
+![DELETE 2](https://github.com/Paul-Edgar/Microservice/blob/main/Img/DELETE-2-userProfil.PNG?raw=true)
+
+To conclude, we can modify a user's data via the PUT:
+
+![PUT 1](https://github.com/Paul-Edgar/Microservice/blob/main/Img/PUT-1-userProfil.PNG?raw=true)
+
+The user's age has been changed as seen below:
+
+![PUT 2](https://github.com/Paul-Edgar/Microservice/blob/main/Img/PUT-2-userProfil.PNG?raw=true)
+
+
+Now that these tests are carried out, we can confirm that the service is running and generates a new Authentication service.
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
