@@ -1,12 +1,15 @@
 package com.example.demo;
 
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import org.springframework.http.HttpHeaders;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 import javax.validation.Valid;
 
@@ -34,6 +37,64 @@ public class  UserController {
             throw new RuntimeException();
         return user;
     }
+
+    @PostMapping(path = "/users/{id}/firstname")
+    public String set_user_firstname(@RequestBody String firstname,
+                                @PathVariable(value = "id") Long id,
+                                @RequestHeader(value = "X-Token") String token) {
+        RestTemplate restTemplate = new RestTemplate();
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("X-Token", token);
+        HttpEntity entity = new HttpEntity<String>("", headers);
+
+        ResponseEntity<Long> response = restTemplate.exchange("http://localhost:8081" + "/token",
+                HttpMethod.GET, entity, Long.class);
+        Long token_user = response.getBody();
+        if (token_user != id)
+            throw new RuntimeException();
+
+        users.get(id).setFirstname(firstname);
+        return firstname;
+    }
+
+    @PostMapping(path = "/users/{id}/lastname")
+    public String set_user_lastname(@RequestBody String lastname,
+                                @PathVariable(value = "id") Long id,
+                                @RequestHeader(value = "X-Token") String token) {
+        RestTemplate restTemplate = new RestTemplate();
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("X-Token", token);
+        HttpEntity entity = new HttpEntity<String>("", headers);
+
+        ResponseEntity<Long> response = restTemplate.exchange("http://localhost:8081" + "/token",
+                HttpMethod.GET, entity, Long.class);
+        Long token_user = response.getBody();
+        if (token_user != id)
+            throw new RuntimeException();
+
+        users.get(id).setLastname(lastname);
+        return lastname;
+    }
+
+    @PostMapping(path = "/users/{id}/age")
+    public int set_user_name(@RequestBody int age,
+                             @PathVariable(value = "id") Long id,
+                             @RequestHeader(value = "X-Token") String token) {
+        RestTemplate restTemplate = new RestTemplate();
+        HttpHeaders headers = new HttpHeaders();
+        headers.set("X-Token", token);
+        HttpEntity entity = new HttpEntity<String>("", headers);
+
+        ResponseEntity<Long> response = restTemplate.exchange("http://localhost:8081" + "/token",
+                HttpMethod.GET, entity, Long.class);
+        Long token_user = response.getBody();
+        if (token_user != id)
+            throw new RuntimeException();
+
+        users.get(id).setAge(age);
+        return age;
+    }
+
 
     //@PostMapping("/users")
     //@CrossOrigin

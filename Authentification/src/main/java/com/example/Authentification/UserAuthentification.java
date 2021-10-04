@@ -20,4 +20,8 @@ public class UserAuthentification {
 
     public String getPassword() { return password;}
     public void setPassword(String password) { this.password = password;}
+
+    public boolean checkPassword(String password) {
+        return this.password.equals(password);
+    }
 }

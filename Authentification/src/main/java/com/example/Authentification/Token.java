@@ -53,4 +53,8 @@ public class Token {
     public void setTimeLimit(LocalDateTime timeLimit) {
         this.timeLimit = timeLimit;
     }
+
+    public boolean isValid(String token) {
+        return this.token.equals(token);
+    }
 }
