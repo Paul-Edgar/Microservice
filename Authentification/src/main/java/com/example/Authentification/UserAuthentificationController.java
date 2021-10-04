@@ -11,7 +11,6 @@ import javax.validation.Valid;
 @RestController
 public class UserAuthentificationController {
     private Map<Long, UserAuthentification> users = new HashMap<>();
-    private final AtomicLong couter = new AtomicLong();
 
     @PostMapping("/users")
     @CrossOrigin

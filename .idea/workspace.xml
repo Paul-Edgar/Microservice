@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f585d45b-9dbf-4de7-8106-fd7c90216527" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserNotFoundExceptionAuthentification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +85,7 @@
       <workItem from="1632899753483" duration="3989000" />
       <workItem from="1632899753483" duration="3989000" />
       <workItem from="1633067943649" duration="22000" />
+      <workItem from="1633337208125" duration="494000" />
     </task>
     <servers />
   </component>
