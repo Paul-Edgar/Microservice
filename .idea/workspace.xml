@@ -8,11 +8,9 @@
       <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/PasswordIncorrectException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/TokenNotValidException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/Token.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentification.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentification/src/main/java/com/example/Authentification/UserAuthentificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userProfil/src/main/java/com/example/demo/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
