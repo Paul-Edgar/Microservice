@@ -30,7 +30,7 @@ public class  UserController {
         long new_id = counter.incrementAndGet();
         user.setId(new_id);
         users.put(new_id, user);
-        NewUser authUser = new NewUser(new_id, "test");
+        NewUser authUser = new NewUser(new_id, "test_password");
         RestTemplate restTemplate = new RestTemplate();
         Long check_id = restTemplate.postForObject("http://localhost:8081" + "/users", authUser, Long.class);
         if (check_id != new_id)

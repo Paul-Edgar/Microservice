@@ -1,3 +1,17 @@
+**Bienvenue dans le compte-rendu de projet / cours de programmation distribuée & web avancé réalisé par PELLERIN Samuel, VALDES Paul-Edgar, JALLON Cynthia.**
+
+**Vous trouverez 2 versions, FR et EN.**
+
+**Nous vous souhaitons une bonne lecture !**
+
+--
+
+**Welcome to the advanced distributed & web programming project / course report produced by PELLERIN Samuel, VALDES Paul-Edgar, JALLON Cynthia.**
+
+**You will find 2 versions, FR and EN.**
+
+**We hope you enjoy reading it !**
+
 ## FR version
 
 ### Programmation distribuée & Web avancé
@@ -208,6 +222,25 @@ On doit effectuer une vérification avec un token pour effectuer un DELETE par e
 
 Pour cela, on doit permettre la connexion avec un nom d'utilisateur et un mot de passe.
 
+<br></br>
+
+#### Cours du 04 octobre 2021 - Gateway
+
+Pour ce dernier cours, l'objectif principal est de faire le maximum de tests pour vérifier le bon fonctionnement de nos services.
+
+Les objectifs sont :
+* Champs supplémentaires dans le profil de l’user
+* API complète avec vérification des tokens
+* Tests significatifs
+* Code propre avec des commentaires si nécessaire
+
+Notre projet de groupe étant en retard, nous n'avons pas le temps de mettre en place la gateway mais nous allons détailler le principe ci-dessous.
+
+Une gateway permet une API uniforme, d'effectuer une authentification unique et d'effectuer des contrôles de sécurité. 
+
+<br></br>
+<br></br>
+
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
 
@@ -385,6 +418,22 @@ The user's age has been changed as seen below:
 
 
 Now that these tests are carried out, we can confirm that the service is running and generates a new Authentication service.
+
+<br></br>
+
+#### Course of September 29, 2021 - Authentication
+
+During this course, we will continue to develop the 2nd authentication service.
+
+First, this service must make a POST `/users` call to the User service.
+
+We must perform a check with a token to perform a DELETE for example `/users/1`
+
+To do this, you must allow the connection with a username and password.
+
+
+<br></br>
+<br></br>
 
 ------------------------
 *Samuel PELLERIN - Cynthia JALLON - Paul-Edgar VALDES*
